@@ -1,0 +1,17 @@
+@use "sass:map";
+
+$theme-colors: (
+  "primary": #5d5fee,
+  "secondary": #f6f6ff,
+  "light-purple": #A09EEF,
+);
+
+$font-color: (
+	"primary": #50527C,
+	"secondary": #A8AABA,
+);
+
+$body-bg: #f7f7ff;
+$body-color: #50527C;//map.get($font-color, "primary");
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
